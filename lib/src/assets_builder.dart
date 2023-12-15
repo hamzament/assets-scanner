@@ -204,7 +204,7 @@ class AssetsBuilder extends Builder {
         }
       }
       assetPathsClass
-        ..writeln('  static const assets = [')
+        ..writeln('  static const allAssets = [')
         ..writeln();
 
       for (final assetPath in assetPaths) {
